@@ -1,1 +1,18 @@
 /* Your CSS code here. */
+p {
+    color: #6c1ed1;
+    text-align: center;
+    }
+    
+
+button{
+    display: grid;
+    margin: auto;
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+*{
+	background-color:black;
+}
