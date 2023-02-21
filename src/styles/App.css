@@ -9,9 +9,6 @@ button{
     display: grid;
     margin: auto;
     color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 *{
 	background-color:black;

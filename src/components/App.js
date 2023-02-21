@@ -2,17 +2,20 @@ import React, { useState } from "react";
 import "./../styles/App.css";
 
 const App = (props) => {
-  const [para, setPara] = useState(false);
+  const [isClick, setClick] = useState(false);
 
   const handleClick = () => {
-    setPara(
-      "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
-    );
+    setClick(true);
   };
 
   return (
     <div className="App" id="main">
-      <p id="para">{para}</p>
+      {isClick && (
+        <p id="para">
+          Hello, I've learnt to use the full-stack evaluation tool. This makes
+          me so happy
+        </p>
+      )}
       <button id="click" onClick={handleClick}>
         Click
       </button>
